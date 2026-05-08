@@ -1,0 +1,20 @@
+{
+  "demo_name": "AI Request Triage Tool",
+  "input_type": "Geschäftsanfrage / Dokument / Meeting-Notiz",
+  "outputs": [
+    "Kategorie",
+    "Priorität",
+    "Dringlichkeitsscore",
+    "Geschäftsproblem",
+    "Nächste Schritte",
+    "Antwortvorschlag",
+    "Workflow-Vorschlag"
+  ],
+  "target_role_fit": [
+    "interne MVPs bauen",
+    "AI-Use-Cases strukturieren",
+    "Prozesse mit AI-Agenten beschleunigen",
+    "Templates und Guardrails entwickeln",
+    "Teams im praktischen Umgang befähigen"
+  ]
+}
