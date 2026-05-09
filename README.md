@@ -1,3 +1,7 @@
+## Demo Video
+
+https://github.com/user-attachments/assets/cdc32bb4-90a8-4eed-8da8-636889a45458
+
 # 🧠 AI Request Triage Tool
 
 > KI-gestützter MVP zur Strukturierung, Priorisierung und Voranalyse eingehender Geschäftsanforderungen — entwickelt als Teil eines AI Enablement & Workflow Prototyping Portfolios.
