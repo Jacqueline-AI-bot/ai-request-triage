@@ -1,96 +1,62 @@
-# AI Request Triage Tool
+# 🧠 AI Request Triage Tool
 
-Mini-MVP für eine AI-Enablement-Rolle: Das Tool analysiert eingehende Geschäftsanfragen, strukturiert sie, priorisiert sie und erzeugt einen Antwortvorschlag.
+> KI-gestützter MVP zur Strukturierung, Priorisierung und Voranalyse eingehender Geschäftsanforderungen — entwickelt als Teil eines AI Enablement & Workflow Prototyping Portfolios.
 
-## Was das Tool zeigt
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-1.35+-red)
+![Status](https://img.shields.io/badge/status-live-brightgreen)
+![AI Workflow](https://img.shields.io/badge/focus-AI%20Enablement-black)
 
-- Identifikation und Strukturierung eines AI-Use-Cases
-- Schneller MVP-Ansatz statt langer Konzeptphase
-- KI-gestützte Analyse, Priorisierung und Reaktionslogik
-- Grundlage für interne Workflows, Prompt-Bibliotheken und Enablement
+---
 
-## Use Case
+## Überblick
 
-Viele interne und externe Anfragen kommen unstrukturiert an. Teams müssen Inhalte lesen, einordnen, priorisieren und manuell beantworten.
+Viele interne und externe Anfragen erreichen Unternehmen unstrukturiert:
+E-Mails, Notizen oder Anforderungen müssen gelesen, eingeordnet, priorisiert und manuell weiterverarbeitet werden.
 
-Dieses MVP zeigt, wie ein AI Agent diese Schritte vorbereiten kann:
+Dieses MVP demonstriert, wie ein AI-gestützter Workflow diese Schritte vorbereiten und beschleunigen kann.
 
-1. Anfrage verstehen
-2. Kategorie und Priorität bestimmen
-3. Geschäftsproblem erkennen
-4. nächste Schritte vorschlagen
-5. Antwortentwurf generieren
-6. Automatisierungspotenzial bewerten
+Der Fokus liegt bewusst nicht auf maximaler technischer Komplexität, sondern auf der schnellen Übersetzung eines realen Geschäftsproblems in einen testbaren und praxisnahen Prototyp.
 
-## Tech Stack
+---
 
-- Python
-- Streamlit
-- OpenAI API optional
-- Fallback-Regel-Logik ohne API-Key
+## Funktionen
 
-## Installation
+Das Tool unterstützt unter anderem bei:
 
-```bash
-pip install -r requirements.txt
-```
+- Strukturierung eingehender Anfragen
+- Kategorisierung und Priorisierung
+- Identifikation des Geschäftsproblems
+- Bewertung der Dringlichkeit
+- Vorschlägen für nächste Schritte
+- Generierung eines Antwortentwurfs
+- Bewertung von Automatisierungspotenzial
+- JSON-Export strukturierter Ergebnisse
 
-## Start
+---
 
-```bash
-streamlit run app.py
-```
+## Beispiel-Workflow
 
-Optional mit OpenAI API Key:
+1. Anfrage analysieren  
+2. Kategorie und Priorität bestimmen  
+3. Geschäftsproblem erkennen  
+4. nächste Schritte vorschlagen  
+5. Antwortentwurf generieren  
+6. Workflow- und Automatisierungspotenzial bewerten  
 
-```bash
-export OPENAI_API_KEY="dein-key"
-streamlit run app.py
-```
+---
 
-Alternativ kann der API-Key direkt in der Sidebar eingegeben werden.
-
-## Beispielinput
+## Beispiel-Use-Case
 
 ```text
 Guten Tag,
 
 wir möchten unsere internen Dokumentenprozesse effizienter gestalten.
 Aktuell bearbeiten mehrere Teams dieselben Informationen parallel, wodurch Verzögerungen entstehen.
+
 Besonders bei Kundenanfragen, Freigaben und Angebotsvorbereitungen verlieren wir viel Zeit.
 
 Können Sie uns hierzu einen Vorschlag machen?
 
 Beste Grüße
 Anna Schmidt
-Schmidt Solutions GmbH
-```
-
-## Beispieloutput
-
-Das Tool erzeugt unter anderem:
-
-- Kurzfassung
-- Kategorie
-- Priorität
-- Dringlichkeitsscore
-- Geschäftsproblem
-- nächste Schritte
-- Antwortvorschlag
-- Workflow-Vorschlag
-- JSON Export
-
-## Weiterentwicklung
-
-Mögliche nächste Schritte:
-
-- Anschluss an E-Mail-Postfach
-- Speicherung in Airtable, Notion oder Datenbank
-- Rollenbasierte Routing-Logik
-- Prompt-Bibliothek für verschiedene Fachbereiche
-- Guardrails für Datenschutz und Qualitätssicherung
-- Übergabe produktionsreifer Use Cases an Entwicklung / IT
-
-## Rolle im AI Center of Excellence
-
-Dieses MVP ist bewusst klein gehalten. Es zeigt nicht maximale technische Tiefe, sondern die Fähigkeit, ein reales Problem schnell in einen testbaren Prototyp zu übersetzen.
